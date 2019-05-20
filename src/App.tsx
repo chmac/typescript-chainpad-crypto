@@ -1,6 +1,10 @@
+/// <reference path="../modules.d.ts"/>
 import React from 'react';
+import crypto from 'chainpad-crypto';
 import logo from './logo.svg';
 import './App.css';
+
+const kp = crypto.Nacl.box.keyPair();
 
 const App: React.FC = () => {
   return (
