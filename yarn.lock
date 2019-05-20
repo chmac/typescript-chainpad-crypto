@@ -2379,6 +2379,13 @@ ccount@^1.0.3:
   resolved "https://registry.yarnpkg.com/ccount/-/ccount-1.0.4.tgz#9cf2de494ca84060a2a8d2854edd6dfb0445f386"
   integrity sha512-fpZ81yYfzentuieinmGnphk0pLkOTMm6MZdVqwd77ROvhko6iujLNGrHH5E7utq3ygWklwfmwuG+A7P+NpqT6w==
 
+chainpad-crypto@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/chainpad-crypto/-/chainpad-crypto-0.2.2.tgz#8224f5ca6c71f71aa9aade41eb44ef62ce81ce94"
+  integrity sha512-7MJ7qPz/C4sJPsDhPMjdSRmliOCPoRO0XM1vUomcgXA6HINlW+if9AAt/H4q154nYhZ/b57njgC6cWgd/RDidg==
+  dependencies:
+    tweetnacl "git://github.com/dchest/tweetnacl-js.git#v0.12.2"
+
 chalk@2.4.2, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
@@ -7888,7 +7895,7 @@ react-dev-utils@^9.0.1:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.8.6:
+react-dom@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
@@ -7968,7 +7975,7 @@ react-scripts@3.0.1:
   optionalDependencies:
     fsevents "2.0.6"
 
-react@16.8.6:
+react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
@@ -9240,6 +9247,10 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
+
+"tweetnacl@git://github.com/dchest/tweetnacl-js.git#v0.12.2":
+  version "0.12.2"
+  resolved "git://github.com/dchest/tweetnacl-js.git#8a21381d696acdc4e99c9f706f1ad23285795f79"
 
 type-check@~0.3.2:
   version "0.3.2"
